@@ -1,0 +1,37 @@
+{
+  "name": "Marksnap",
+  "version": "0.1.0",
+  "description": "CLI tool for parse markdown(.md) to HTML, PDF.",
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "bin": {
+    "marksnap": "./bin/marksnap.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronJan/marksnap.git"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "AaronJan",
+  "license": "Apache lisence V2",
+  "bugs": {
+    "url": "https://github.com/AaronJan/marksnap/issues"
+  },
+  "homepage": "https://github.com/AaronJan/marksnap",
+  "dependencies": {
+    "bluebird": "^2.9.14",
+    "chalk": "^1.0.0",
+    "fs-extra": "^0.16.5",
+    "is_js": "^0.7.1",
+    "lodash": "^3.5.0",
+    "markdown": "^0.5.0",
+    "markdown-pdf": "^5.1.1",
+    "minimist": "^1.1.1",
+    "moment": "^2.9.0"
+  }
+}
