@@ -1,15 +1,12 @@
-# marksnap
----
+# Marksnap.js
 CLI tool for parse markdown(.md) to HTML, PDF.
 
 ### Getting started
----
 ```
     npm install marksnap -g
 ```
 
 ### Example usage
----
 
 ##### Convert to `HTML`
 
@@ -36,7 +33,6 @@ If you want the `PDF` version, you just simply add a parameter like this:
 ```
 
 ### Notices
----
 
 ##### `images` in `markdown` file
 
@@ -64,5 +60,12 @@ In next version, `Marksnap` will do this `path converting` automatically.
 5.If converting to `.html` and specified an output directory, copy all local
 images to the directory
 
+## Special thanks to:
+[markdown-js](https://github.com/evilstreak/markdown-js)
+[markdown-pdf](https://github.com/alanshaw/markdown-pdf)
 
+
+## License
+
+Apache license V2. Copyright @ 2015 [AaronJan](https://github.com/AaronJan)
 
