@@ -1,8 +1,7 @@
 {
   "name": "Marksnap",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "description": "CLI tool for parse markdown(.md) to HTML, PDF.",
-  "main": "index.js",
   "readmeFilename": "README.md",
   "bin": {
     "marksnap": "./bin/marksnap.js"
@@ -15,7 +14,10 @@
     "url": "https://github.com/AaronJan/marksnap.git"
   },
   "keywords": [
-    "CLI"
+    "CLI",
+    "markdown",
+    "converter",
+    "convert"
   ],
   "author": "AaronJan",
   "license": "Apache lisence V2",
