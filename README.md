@@ -61,7 +61,9 @@ In next version, `Marksnap` will do this `path converting` automatically.
 images to the directory
 
 ## Special thanks to:
+
 [markdown-js](https://github.com/evilstreak/markdown-js)
+
 [markdown-pdf](https://github.com/alanshaw/markdown-pdf)
 
 
