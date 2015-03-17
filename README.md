@@ -7,7 +7,7 @@ CLI tool for parse markdown(.md) to HTML, PDF.
     npm install marksnap -g
 ```
 
-**This package requires `node` version `>= 0.12`.**
+**This package requires `node` version `>= 0.10`.**
 
 ### Example usage
 
