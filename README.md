@@ -7,7 +7,7 @@ CLI tool for parse markdown(.md) to HTML, PDF.
     npm install marksnap -g
 ```
 
-This package requires `node` version `>= 0.12`.
+**This package requires `node` version `>= 0.12`.**
 
 ### Example usage
 
@@ -52,15 +52,15 @@ In next version, `Marksnap` will do this `path converting` automatically.
 
 ## TODO
 
-~~1.[Solved]Capable of converting `.md` to `.html` and `pdf`~~
+~~1. [Solved]Capable of converting `.md` to `.html` and `pdf`~~
 
-~~2.[Solved]Can specify output file path~~
+~~2. [Solved]Can specify output file path~~
 
-~~3.[Solved]Convert to a randomly named file in the `source` directory by default~~
+~~3. [Solved]Convert to a randomly named file in the `source` directory by default~~
 
-4.Convert local image file links automatically
+4. Convert local image file links automatically
 
-5.If converting to `.html` and specified an output directory, copy all local
+5. If converting to `.html` and specified an output directory, copy all local
 images to the directory
 
 ## Special thanks to:
