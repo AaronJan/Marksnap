@@ -6,7 +6,7 @@
  * ----------------------------------------------------------------------------
  * Marksnap is a CLI tool for parse markdown(.md) to HTML, PDF.
  * ----------------------------------------------------------------------------
- * @version 0.9
+ * @version 0.9.1
  * @author  AaronJan <https://github.com/AaronJan>
  * @link    https://github.com/AaronJan/marksnap
  * @license http://ww.apache.org/licenses/LICENSE-2.0 The Apache License V2
