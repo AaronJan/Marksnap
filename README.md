@@ -53,8 +53,11 @@ In next version, `Marksnap` will do this `path converting` automatically.
 ## TODO
 
 ~~1. [Solved]Capable of converting `.md` to `.html` and `pdf`~~
+
 ~~2. [Solved]Can specify output file path~~
+
 ~~3. [Solved]Convert to a randomly named file in the `source` directory by default~~
+
 4. Convert local image file links automatically
 5. If converting to `.html` and specified an output directory, copy all local
 images to the directory
