@@ -62,8 +62,7 @@ In next version, `Marksnap` will do this `path converting` automatically.
 5. If converting to `.html` and specified an output directory, copy all local
 images to the directory
 6. Write a render engine for both `HTML` and `PDF`
-7. Add a little more stuff to `markdown`
-8. Rewrite this in a cool way
+7. Add a little more flavors to standard `markdown`
 
 
 ## Special thanks to:
