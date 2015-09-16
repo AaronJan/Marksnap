@@ -8,16 +8,26 @@ var helper    = require('../lib/helper');
 var converter = require('../lib/converter');
 
 
+
+
+
+//test
+helper.showError('sdf');
+
+process.exit();
+
+
+
+
 /**
  * Generate converting options and convert.
  */
 try {
-  // show help manuals or not
-  if (argv._.length == 0 && (argv.h || argv.help)) {
-    helper.showHelp();
+  if (argv._.length != 0 && ! argv.h && ! argv.help) {
+    converter.convert(converter.generateOptions(argv));
   }
 
-  converter.convert(converter.generateOptions(argv));
+  helper.showHelp();
 } catch (err) {
   helper.showError(err, true);
 }
