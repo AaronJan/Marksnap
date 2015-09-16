@@ -7,6 +7,7 @@ var argv      = require('minimist')(process.argv.slice(2));
 var helper    = require('../lib/helper');
 var converter = require('../lib/converter');
 
+
 /**
  * Generate converting options and convert.
  */
@@ -16,8 +17,7 @@ try {
     helper.showHelp();
   }
 
-  var options = converter.generateOptions(argv);
-  converter.convert(options);
+  converter.convert(converter.generateOptions(argv));
 } catch (err) {
   helper.showError(err, true);
 }
