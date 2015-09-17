@@ -1,35 +1,28 @@
 #!/usr/bin/env node
-
 'use strict';
 
 
 var argv      = require('minimist')(process.argv.slice(2));
 var helper    = require('../lib/helper');
 var converter = require('../lib/converter');
+var path = require('path');
 
+var p = path.resolve(process.cwd(), argv._[0]);
 
-
-
-
-//test
-helper.showError('sdf');
+console.log(p);
 
 process.exit();
 
 
-
-
-/**
- * Generate converting options and convert.
- */
 try {
   if (argv._.length != 0 && ! argv.h && ! argv.help) {
-    converter.convert(converter.generateOptions(argv));
+    /**
+     * Generate converting options and convert.
+     */
+    converter.startFromCLI(argv, process.cwd());
   }
 
   helper.showHelp();
 } catch (err) {
   helper.showError(err, true);
 }
-
-
