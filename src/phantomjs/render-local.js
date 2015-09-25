@@ -25,8 +25,8 @@ if (system.args.length < 3 || system.args.length > 5) {
   output            = system.args[2];
 
   page.viewportSize = {
-    width : 600,
-    height: 600
+    width : 1280,
+    height: 400
   };
 
   if (system.args.length > 3 && system.args[2].substr(- 4) === ".pdf") {
@@ -79,7 +79,7 @@ if (system.args.length < 3 || system.args.length > 5) {
       window.setTimeout(function () {
         page.render(output);
         phantom.exit();
-      }, 200);
+      }, 50);
     }
   });
 }
