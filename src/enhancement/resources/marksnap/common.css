@@ -1,4 +1,11 @@
 /**
+ *
+ **/
+pre, code {
+    overflow: hidden !important;
+}
+
+/**
  * Mermaid diagram
  **/
 .mermaid {

@@ -1,0 +1,37 @@
+{
+  "name": "Marksnap",
+  "version": "2.0.0",
+  "homepage": "https://github.com/AaronJan/marksnap",
+  "authors": [
+    "AaronJan <aaronjan@qq.com>"
+  ],
+  "description": "CLI tool for parse MD to HTML or PDF.",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "CLI",
+    "parser",
+    "markdown",
+    "md",
+    "html",
+    "pdf"
+  ],
+  "license": "APACHE 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mermaid": "~0.5.1",
+    "highlightjs": "~8.8.0",
+    "lodash": "~3.10.1",
+    "jquery": "~2.1.4",
+    "github-markdown-css": "~2.0.10"
+  }
+}
