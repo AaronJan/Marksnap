@@ -8,8 +8,8 @@ var assert = chai.assert;
 var helper = require(path.join(__dirname, '../', 'lib', 'helper.js'));
 
 
-describe('lib/Helper.js exported methods', function () {
-  it('Method: copy (fs-extra.copy, curried, takes 2 arguments)', function () {
+describe('lib/Helper.js', function () {
+  it('#copy() (fs-extra.copy, curried, takes 2 arguments)', function () {
 
 
   });
