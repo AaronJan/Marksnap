@@ -20,7 +20,7 @@ if (argv._.length != 0 && ! argv.h && ! argv.help) {
       /**
        * That's it, all done!
        */
-      helper.showInfo('Complete !');
+      helper.showInfo('Snap !');
     })
     .catch(function (e) {
       /**
