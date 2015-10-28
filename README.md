@@ -1,4 +1,7 @@
 # Marksnap.js
+
+**`2.0` coming soon**
+
 CLI tool for parse markdown(.md) to HTML, PDF.
 
 ### Getting started
